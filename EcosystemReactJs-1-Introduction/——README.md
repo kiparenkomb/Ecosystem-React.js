@@ -120,8 +120,8 @@
 	* $ `webpack`
 
 ## СОЗДАНИЕ HTML ФАЙЛА
-	* Копируем с официального сайта **Webpack** код html и создает документ
-		* [Official site](https://webpack.js.org/)
+* Копируем с официального сайта **Webpack** код html и создает документ
+	* [Official site](https://webpack.js.org/)
 	```bash
 	<!DOCTYPE html>
 	<html lang="en">
@@ -131,8 +131,6 @@
 		</head>
 		<body>
 			<div id="root"></div>
-
-
 			<script src="bundle.js"></script>
 		</body>
 	</html>
