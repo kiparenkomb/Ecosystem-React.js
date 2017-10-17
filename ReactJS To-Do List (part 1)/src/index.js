@@ -21,7 +21,6 @@ class TodoList extends Component {
 		} else {
 			document.getElementsByName('todo')[0].placeholder = 'Please enter the text!';
 		}
-		
 	}
 
 	handleDeleteClick(e) {
@@ -44,6 +43,7 @@ class TodoList extends Component {
 			)
 		}
 		return (
+			// <button className="add" onClick={this.handleAddClick}>+</button>
 			<div className="container">
 				<h1>TODO-list</h1>
 				<input type="text" name="todo" placeholder="Enter the text!"/>
